@@ -1,0 +1,28 @@
+### Tutorial-CRUD 
+### get cat
+GET http://localhost:3000/tutorial-crud
+
+### create cat
+POST http://localhost:3000/tutorial-crud
+Content-Type: application/json
+
+{
+    "name": "tenyom"
+}
+
+### update cat
+PUT http://localhost:3000/tutorial-crud
+Content-Type: application/json
+
+{
+    "name": "tenyom",
+    "new_name": "junggul"
+}
+
+### delete cat
+DELETE http://localhost:3000/tutorial-crud
+Content-Type: application/json
+
+{
+    "name": "tenyom",
+}
